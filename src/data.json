@@ -61,6 +61,26 @@
         "category": "Frontend"
       },
       {
+        "name": "npm",
+        "image": "https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg",
+        "category": "Frontend"
+      },
+      {
+        "name": "Jest",
+        "image": "https://github.com/devicons/devicon/blob/master/icons/jest/jest-plain.svg",
+        "category": "Frontend"
+      },
+      {
+        "name": "Vite",
+        "image": "https://camo.githubusercontent.com/734bba415fb6b43deca708d2c0a7c5c77f84e10bb1594ffb25d4661c5c2ab266/68747470733a2f2f7777772e7376677265706f2e636f6d2f73686f772f3337343136372f766974652e737667",
+        "category": "Frontend"
+      },
+      {
+        "name": "Vitest",
+        "image": "https://vitest.dev/logo-shadow.svg",
+        "category": "Frontend"
+      },
+      {
         "name": "Python",
         "image": "https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg",
         "category": "Backend"
@@ -76,8 +96,38 @@
         "category": "Backend"
       },
       {
+        "name": "npm",
+        "image": "https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg",
+        "category": "Backend"
+      },
+      {
+        "name": "SPSS",
+        "image": "https://github.com/devicons/devicon/blob/master/icons/spss/spss-original.svg",
+        "category": "Backend"
+      },
+      {
+        "name": "Jest",
+        "image": "https://github.com/devicons/devicon/blob/master/icons/jest/jest-plain.svg",
+        "category": "Backend"
+      },
+      {
+        "name": "Git",
+        "image": "https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg",
+        "category": "Tools"
+      },
+      {
         "name": "GitHub",
-        "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+        "image": "https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg",
+        "category": "Tools"
+      },
+      {
+        "name": "Figma",
+        "image": "https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg",
+        "category": "Tools"
+      },
+      {
+        "name": "Trello",
+        "image": "https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg",
         "category": "Tools"
       }
     ],
