@@ -12,7 +12,7 @@ export default function TechStack() {
       <div className="pt-5 pb-5">
         <h2 className="text-md-center">Tech Stack</h2>
         <div className="row justify-content-center">
-          <div className="btn-group btn-group-lg w-50 pb-5" role="group">
+          <div className=" w-50 pb-5" role="group">
             <button type="button" className="btn btn-secondary" onClick={() => setStack('frontend')}>Frontend</button>
             <button type="button" className="btn btn-secondary" onClick={() => setStack('backend')}>Backend</button>
             <button type="button" className="btn btn-secondary" onClick={() => setStack('others')}>Others</button>
