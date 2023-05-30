@@ -19,6 +19,9 @@
     font-family: 'Kaushan Script', cursive;
 }
 
+.react-logo {
+    top: 10%,
+}
 
 @media (min-width: 768px){
     .container{

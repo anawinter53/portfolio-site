@@ -12,17 +12,60 @@ export default function Intro() {
           <button className="btn btn-dark">About Me</button>
         </div>
         <div className='col position-relative intro-images'>
-          <div className='rounded'>
+          <div>
             <img 
-              src='studying.png'
+              src='assets/studying.png'
               alt='hero image'
               draggable='false'
               loading='eager'
-              style={{ maxWidth: "350px"}}
+              style={{ maxWidth: "350px" }}
             />
           </div>
           <div className='position-absolute'>
-
+            <img 
+              src='assets/react-original.svg'
+              alt='react icon'
+              draggable='false'
+              loading='eager'
+              className='tech-logo react-logo'
+              style={{ 
+                height: "80px",
+                // top: "10px"
+               }}
+            />
+          </div>
+          <div className='position-absolute'>
+            <img 
+              src='assets/jest-plain.svg'
+              alt='jest icon'
+              draggable='false'
+              loading='eager'
+              style={{ 
+                height: "80px"
+               }}
+            />
+          </div>
+          <div className='position-absolute'>
+            <img 
+              src='assets/python-original.svg'
+              alt='python icon'
+              draggable='false'
+              loading='eager'
+              style={{ 
+                height: "80px"
+               }}
+            />
+          </div>
+          <div className='position-absolute'>
+            <img 
+              src='assets/vitest-original.svg'
+              alt='vitest icon'
+              draggable='false'
+              loading='eager'
+              style={{ 
+                height: "80px"
+               }}
+            />
           </div>
         </div>
       </div>

@@ -1,16 +1,15 @@
 import React from 'react'
 import { Nav } from './layout'
-import { Intro, About, TechStack } from './components'
+import { Intro, About, TechStack, Background } from './components'
 
 export default function App() {
   return (
     <div>
         <Nav />
-        <div className='main-page'>
+        <Background />
         <Intro />
         <About />
         <TechStack />
-        </div>
     </div>
   )
 }
