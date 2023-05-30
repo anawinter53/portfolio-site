@@ -6,9 +6,11 @@ export default function App() {
   return (
     <div>
         <Nav />
+        <div className='main-page'>
         <Intro />
         <About />
         <TechStack />
+        </div>
     </div>
   )
 }
