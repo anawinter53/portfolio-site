@@ -11,7 +11,7 @@ export default function About() {
           </div>
           <div className="col-8 p-xl-5">
             <h2>Anatolia Winter</h2>
-            <h4 className="fw-light">I am a career switcher, with a background in education and a degree in Psychology. I started my switch into tech at La Fosse Academy, learning a range of technologies including React and more. During this time I realised my skill in design and testing, both of which I am very passionate about. Through the course projects I have tested with Jest, Vite and Pytest. I founded and help grow a community of women in tech, supporting women switching into tech in particular.</h4>
+            <h5 className="fw-light">I am a career switcher, with a background in education and a degree in Psychology. I started my switch into tech at La Fosse Academy, learning a range of technologies including React and more. During this time I realised my skill in design and testing, both of which I am very passionate about. Through the course projects I have tested with Jest, Vite and Pytest. I founded and help grow a community of women in tech, supporting women switching into tech in particular.</h5>
           </div>
         </div>
       </div>
