@@ -11,8 +11,21 @@
     height: "100vh" */
 }
 
+.waving-hey {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.hey {
+    padding-left: 0;
+    padding-top: 10px;
+    margin: 0;
+}
+
 .description {
     padding-top: 60px;
+    padding-right: 100px;
 }
 
 .display-3 {
