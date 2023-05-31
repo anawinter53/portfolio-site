@@ -28,61 +28,23 @@ export default function Intro() {
           </div>
             <button className="btn btn-dark"> More About Me <IoIosArrowForward style={{alignItems: 'center'}}/></button>
         </div>
-        <div className='col position-relative intro-images'>
-          <div>
-            <img 
-              src='assets/studying.png'
-              alt='hero image'
-              draggable='false'
-              loading='eager'
-              style={{ maxWidth: "350px" }}
-            />
-          </div>
-          <div className='position-absolute'>
-            <img 
-              src='assets/react-original.svg'
-              alt='react icon'
-              draggable='false'
-              loading='eager'
-              className={`${styles.reactlogo}`}
-              style={{ 
-                height: "80px",
-                // top: "10px"
-               }}
-            />
-          </div>
-          <div className='position-absolute'>
-            <img 
-              src='assets/jest-plain.svg'
-              alt='jest icon'
-              draggable='false'
-              loading='eager'
-              style={{ 
-                height: "80px"
-               }}
-            />
-          </div>
-          <div className='position-absolute'>
-            <img 
-              src='assets/python-original.svg'
-              alt='python icon'
-              draggable='false'
-              loading='eager'
-              style={{ 
-                height: "80px"
-               }}
-            />
-          </div>
-          <div className='position-absolute'>
-            <img 
-              src='assets/vitest-original.svg'
-              alt='vitest icon'
-              draggable='false'
-              loading='eager'
-              style={{ 
-                height: "80px"
-               }}
-            />
+        <div className={`col  ${styles.logos}`}>
+          <div className={`${styles.bubbles}`}>
+            <div>
+              <img src='assets/studying.png' alt='hero image' draggable='false' loading='eager' className={`${styles.hero}`}/>
+            </div>
+            <div className=''>
+              <img src='assets/react-original.svg' alt='react icon' draggable='false' loading='eager' className={`${styles.react}`}/>
+            </div>
+            <div className=''>
+              <img src='assets/jest-plain.svg' alt='jest icon' draggable='false' loading='eager' className={`${styles.jest}`}/>
+            </div>
+            <div className=''>
+              <img src='assets/python-original.svg' alt='python icon' draggable='false' loading='eager' className={`${styles.python}`}/>
+            </div>
+            <div className=''>
+              <img src='assets/vitest-original.svg' alt='vitest icon' draggable='false' loading='eager' className={`${styles.vitest}`}/>
+            </div>
           </div>
         </div>
       </div>
