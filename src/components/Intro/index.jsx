@@ -1,13 +1,13 @@
 import React from 'react'
 import { IoIosArrowForward } from "react-icons/io";
-import './intro.css'
+import styles from './index.module.css'
 
 export default function Intro() {
   return (
-    <div className="container" id="intro">
-      <div className='row'>
-        <div className="col col-7 description">
-          <div className='row waving-hey pb-3'>
+    <div className={`container ${styles.intro}`}>
+      <div className={`row`}>
+        <div className={`col col-7 ${styles.description}`}>
+          <div className={`row pb-3 ${styles.waving}`}>
               <img 
               src='assets/waving-hand.png'
               alt='waving hand'
@@ -15,10 +15,10 @@ export default function Intro() {
               loading='eager'
               style={{ maxWidth: "60px" }}
               />
-              <h4 className="fw-light hey">Hey!</h4>
+              <h4 className={`fw-light ${styles.hey}`}>Hey!</h4>
           </div>
           <div className='row pb-3'>
-            <h1 className="display-3">I'm Anatolia Winter</h1>
+            <h1 className={`${styles.cursive}`}>I'm Anatolia Winter</h1>
           </div>
           <div className='row pb-2'>
             <h4 className="">I'm into Full Stack Development/Testing</h4>
@@ -26,7 +26,7 @@ export default function Intro() {
           <div className='row pb-2'>
             <h5 className="fw-light">I enjoy making applications that have innovative features and clean yet impactful design, alongside full-stack testing to ensure efficiency of code. </h5>
           </div>
-            <button className="btn btn-dark"> More About Me <IoIosArrowForward style={{alignSelf: 'center'}}/></button>
+            <button className="btn btn-dark"> More About Me <IoIosArrowForward style={{alignItems: 'center'}}/></button>
         </div>
         <div className='col position-relative intro-images'>
           <div>
@@ -44,7 +44,7 @@ export default function Intro() {
               alt='react icon'
               draggable='false'
               loading='eager'
-              className='tech-logo react-logo'
+              className={`${styles.reactlogo}`}
               style={{ 
                 height: "80px",
                 // top: "10px"

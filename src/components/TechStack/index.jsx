@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import './techstack.css'
 
 export default function TechStack() {
   const [ stack, setStack ] = useState('frontend')

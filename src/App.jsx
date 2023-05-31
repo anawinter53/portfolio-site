@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav } from './layout'
-import { Intro, About, TechStack, Background } from './components'
+import { Intro, About, TechStack, Background, Projects } from './components'
 
 export default function App() {
   return (
@@ -10,6 +10,7 @@ export default function App() {
         <Intro />
         <About />
         <TechStack />
+        <Projects />
     </div>
   )
 }
