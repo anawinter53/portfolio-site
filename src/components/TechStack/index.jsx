@@ -11,7 +11,7 @@ export default function TechStack() {
   return (
     <div className="container" id="tech-stack">
       <div className="pt-5 pb-5">
-        <h2 className="text-md-center">Tech Stack</h2>
+        <h2 className="text-md-center cursive">Tech Stack</h2>
         <div className="row justify-content-center">
           <div className=" w-50 pb-5" role="group">
             <button type="button" className="btn btn-secondary" onClick={() => setStack('frontend')}>Frontend</button>

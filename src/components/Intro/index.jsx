@@ -18,7 +18,7 @@ export default function Intro() {
               <h4 className={`fw-light ${styles.hey}`}>Hey!</h4>
           </div>
           <div className='row pb-3'>
-            <h1 className={`${styles.cursive}`}>I'm Anatolia Winter</h1>
+            <h1 className='cursive'>I'm Anatolia Winter</h1>
           </div>
           <div className='row pb-2'>
             <h4 className="">I'm into Full Stack Development/Testing</h4>

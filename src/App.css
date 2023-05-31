@@ -4,3 +4,8 @@
     width: "100dvw";
     height: 100%;
 }
+
+.cursive {
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+}
