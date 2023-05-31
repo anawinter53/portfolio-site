@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './techstack.css'
+import styles from './index.module.css'
 
 export default function TechStack() {
   const [ stack, setStack ] = useState('frontend')
@@ -9,11 +9,11 @@ export default function TechStack() {
   }, [stack])
 
   return (
-    <div className="container" id="tech-stack">
+    <div className={`container ${styles.tech_stack}`}>
       <div className="pt-5 pb-5">
-        <h2 className="text-md-center cursive">Tech Stack</h2>
+        <h2 className={`text-md-center cursive ${styles.title}`}>Tech Stack</h2>
         <div className="row justify-content-center">
-          <div className=" w-50 pb-5" role="group">
+          <div className={`w-50 pb-5 ${styles.buttons}`}>
             <button type="button" className="btn btn-secondary" onClick={() => setStack('frontend')}>Frontend</button>
             <button type="button" className="btn btn-secondary" onClick={() => setStack('backend')}>Backend</button>
             <button type="button" className="btn btn-secondary" onClick={() => setStack('others')}>Others</button>
