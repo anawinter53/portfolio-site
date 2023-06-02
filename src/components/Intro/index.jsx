@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import Typewriter from 'typewriter-effect';
 import { IoIosArrowForward } from "react-icons/io";
-import styles from './index.module.css'
+import styles from './index.module.css';
 
 export default function Intro() {
   return (
@@ -20,23 +21,34 @@ export default function Intro() {
           <div className='row pb-3'>
             <h1 className='cursive'>I'm Anatolia Winter</h1>
           </div>
-          <div className='row pb-2'>
-            <h4 className="">I'm into Full Stack Development/Testing</h4>
+          <div className={`row pb-2 ${styles.typewriter}`}>
+            <h4 className="">I'm into 
+            <Typewriter
+              options={{
+                  strings: 'Full Stack Development & Testing',
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 50,
+                  delay: 50,
+                  wrapperClassName: "{`${styles.blue}`}",
+                  cursorClassName: "{`${styles.blue}`}"
+              }} className={`${styles.blue}`}
+            /> </h4>
           </div>
           <div className='row pb-2'>
             <h5 className="fw-light">I enjoy making applications that have innovative features and clean yet impactful design, alongside full-stack testing to ensure efficiency of code. </h5>
           </div>
-            <button className="btn btn-dark"> More About Me <IoIosArrowForward style={{alignItems: 'center'}}/></button>
+            <button className="btn main-button"> More About Me <IoIosArrowForward style={{alignItems: 'center'}}/></button>
         </div>
         <div className={`col  ${styles.logos}`}>
-          <div className={`${styles.bubbles}`}>
+          <div className={`${styles.persona}`}>
             <div>
               <img src='assets/studying.png' alt='hero image' draggable='false' loading='eager' className={`${styles.hero}`}/>
             </div>
-            <div className=''>
+            <div className={`${styles.bubble}`}>
               <img src='assets/react-original.svg' alt='react icon' draggable='false' loading='eager' className={`${styles.react}`}/>
             </div>
-            <div className=''>
+            <div className={`${styles.bubble}`}>
               <img src='assets/jest-plain.svg' alt='jest icon' draggable='false' loading='eager' className={`${styles.jest}`}/>
             </div>
             <div className=''>
