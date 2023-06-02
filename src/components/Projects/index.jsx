@@ -1,33 +1,34 @@
 import React, { useEffect, useState } from 'react'
+import styles from './index.module.css'
 
 export default function Projects() {
-//   const [ category, setCategory ] = useState('frontend')
+  const [ category, setCategory ] = useState('react')
 
-//   useEffect(() => {
-//     console.log(skillMap[category])
-//   }, [category])
+  useEffect(() => {
+    console.log(projects[category])
+  }, [category])
 
   return (
-    <div className="container" id="projects">
+    <div className={`container ${styles.projects}`}>
       <div className="pt-5 pb-5">
-        <h2 className="text-md-center">Projects</h2>
+        <h2 className={`text-md-center cursive ${styles.title}`}>Projects</h2>
         <div className="row justify-content-center">
-
-          {/* <div className=" w-50 pb-5" role="group">
-            <button type="button" className="btn btn-secondary" onClick={() => setCategory('frontend')}>Frontend</button>
-            <button type="button" className="btn btn-secondary" onClick={() => setCategory('backend')}>Backend</button>
-            <button type="button" className="btn btn-secondary" onClick={() => setCategory('others')}>Others</button>
+          <div className={`mb-5 rounded buttons opacity-background`}>
+            <button type="button" className="btn main-button button" onClick={() => setCategory('react')}>React</button>
+            <button type="button" className="btn main-button button" onClick={() => setCategory('python')}>Python</button>
+            <button type="button" className="btn main-button button" onClick={() => setCategory('others')}>Others</button>
           </div>
           <div className='d-flex flex-row text-center gap-5'>
-          {skillMap ? skillMap[category].map ((item, i) => ( 
-            <div className='justify-content-start'>
-              <div title={item.skill_name} style={{ backgroundColor: "#E8E9EB", width: '8rem', height: '8rem' }} className='rounded-circle d-flex justify-content-center align-items-center p-2'>
-                <img alt='skill' style={{ width: '5rem', height: '5rem' }} src={item.image_url}/>
+          {projects ? projects[category].map ((item, i) => ( 
+            <div className={`justify-content-center rounded opacity-background ${styles.outer_card}`} href={item.github_url}>
+              <div title={item.project_name} className={`d-flex justify-content-center align-items-center p-2 rounded ${styles.img_card}`}>
+                <img alt='skill' className={`${styles.image}`} src={item.main_image}/>
               </div>
-              <p key={i} className='text-sm'>{item.skill_name}</p>
+              <h4 key={i} className='text-sm'>{item.project_name}</h4>
+              <p className=''>{item.tech_stack}</p>
             </div>
           )) : undefined}
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
@@ -35,29 +36,52 @@ export default function Projects() {
 }
 
 const projects = {
-    'MERN Stack': [
+    'react': [
         { 
             project_name: 'Focalise', 
-            project_image: '',
-            github_url: ''
-        }
+            tech_stack: 'HTML5, CSS3, Bootstrap, React, Vite, Vitest, Python, Flask, Pytest, Bcrypt, SQLAlchemy, Render',
+            main_image: 'assets/focalise-main.png',
+            secondary_image: 'assets/focalise-secondary.png',
+            github_url: 'https://github.com/anawinter53/focalise-client'
+        },
+        { 
+            project_name: 'Learnify',
+            tech_stack: 'HTML5, CSS3, JavaScript, React, jsdom, Vite, Vitest, Express, Bcrypt, Nodemon, PostgreSQL, Jest, Supertest', 
+            main_image: 'assets/learnify-main.png',
+            secondary_image: 'assets/learnify-secondary.png',
+            github_url: 'https://github.com/anawinter53/Learnify'
+        },
+        { 
+            project_name: 'Portfolio Page', 
+            tech_stack: 'HTML5, CSS3, Bootstrap, JavaScript, React, Vite',
+            main_image: 'assets/learnify-main.png',
+            secondary_image: 'assets/learnify-main.png',
+            github_url: 'https://github.com/anawinter53/portfolio-site'
+        },
+    ],
+    'python': [
+        { 
+            project_name: 'Focalise', 
+            tech_stack: 'HTML5, CSS3, Bootstrap, React, Vite, Vitest, Python, Flask, Pytest, Bcrypt, SQLAlchemy, Render',
+            main_image: 'assets/focalise-main.png',
+            secondary_image: 'assets/focalise-secondary.png',
+            github_url: 'https://github.com/anawinter53/focalise-api'
+        },
+    ],
+    'others': [
+        { 
+            project_name: 'Eco Emporium', 
+            tech_stack: 'HTML5, CSS3, JavaScript, jsdom, ExpressJS, NodeJS, Bcrypt, Nodemon, PostgreSQL, Jest, Supertest',
+            main_image: 'assets/eco-emporium-main.png',
+            secondary_image: 'assets/eco-emporium-secondary.png',
+            github_url: 'https://github.com/Sonagi-R/Eco-Emporium'
+        },
+        { 
+            project_name: 'History Guessr', 
+            tech_stack: 'HTML5, CSS3, JavaScript, ExpressJS, NodeJS',
+            main_image: 'assets/history-guessr-main.png',
+            secondary_image: 'assets/history-guessr-main.png',
+            github_url: 'https://github.com/Electrolytful/History-Guessr'
+        },
     ]
 }
-
-
-
-
-
-// to be filled as portfolio grows with more range of projects that can be classified (MERN Stack etc)
-
-// const skillMap = {
-//   'frontend': [ 
-//     {skill_name: 'HTML', image_url: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg'},
-//   ],
-//   'backend': [
-//     {skill_name: 'Node', image_url:'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg'},
-//   ],
-//   'others': [
-//     {skill_name: 'npm', image_url:'https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg'},
-//   ]
-//   }

@@ -1,16 +1,14 @@
 .tech_stack {
     padding-left: 100px;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
 }
 
 .title {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
-.buttons {
-    align-content: center;
-}
-
-.button {
-    width: 50px;
+.skills {
+    display: inline-block;
+    justify-items: center;
+    flex-grow: 1;
 }

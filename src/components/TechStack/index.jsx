@@ -13,14 +13,14 @@ export default function TechStack() {
       <div className="pt-5 pb-5">
         <h2 className={`text-md-center cursive ${styles.title}`}>Tech Stack</h2>
         <div className="row justify-content-center">
-          <div className={`w-50 pb-5 ${styles.buttons}`}>
-            <button type="button" className="btn btn-secondary" onClick={() => setStack('frontend')}>Frontend</button>
-            <button type="button" className="btn btn-secondary" onClick={() => setStack('backend')}>Backend</button>
-            <button type="button" className="btn btn-secondary" onClick={() => setStack('others')}>Others</button>
+          <div className={`mb-5 rounded buttons opacity-background`}>
+            <button type="button" className={`btn main-button button`} onClick={() => setStack('frontend')}>Frontend</button>
+            <button type="button" className={`btn main-button button`} onClick={() => setStack('backend')}>Backend</button>
+            <button type="button" className={`btn main-button button`} onClick={() => setStack('others')}>Others</button>
           </div>
-          <div className='d-flex flex-row text-center gap-5'>
+          <div className={`d-flex flex-row text-center pt-5 gap-5 ${styles.skills}`}>
           {skillMap ? skillMap[stack].map ((item, i) => ( 
-            <div className='justify-content-start'>
+            <div className='justify-content-center'>
               <div title={item.skill_name} style={{ backgroundColor: "#E8E9EB", width: '8rem', height: '8rem' }} className='rounded-circle d-flex justify-content-center align-items-center p-2'>
                 <img alt='skill' style={{ width: '5rem', height: '5rem' }} src={item.image_url}/>
               </div>
