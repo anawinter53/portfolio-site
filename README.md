@@ -1,6 +1,6 @@
 This is my personal portfolio, inspired by a range of designs & features. 
 
-** CURRENTLY A WORK IN PROGRESS **
+**CURRENTLY A WORK IN PROGRESS**
 
 Chosen colour scheme:
 - Red (#FFADAD)
