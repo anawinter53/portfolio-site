@@ -1,0 +1,17 @@
+.socials {
+    position: fixed;
+    bottom : 10px;
+    background-color: aquamarine;
+}
+
+.bubble {
+    background-color: bisque;
+    max-width: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.icon {
+    max-width: 40px;
+}

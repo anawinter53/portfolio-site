@@ -23,14 +23,19 @@
     margin: 0;
 }
 
+h1 {
+    font-size: 60px !important;
+}
+
 .typewriter {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
-.blue {
-    color: #90DBF4;
+.typing {
+    color: #1982C4;
+    padding-left: 0.35rem;
 }
 
 .description {

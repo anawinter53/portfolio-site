@@ -1,19 +1,16 @@
-import React from 'react'
-import { Nav } from './layout'
-import { Intro, About, TechStack, Background, Projects } from './components'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { Nav } from './layout';
+import { MainPage } from './pages';
 import './App.css'
+
 
 export default function App() {
   return (
-    <div>
-        <Nav />
-        <div className='mainpage'>
-          <Background />
-          <Intro />
-          <About />
-          <TechStack />
-          <Projects />
-        </div>
-    </div>
+    <Routes>
+       <Route element={<Nav />}>
+          <Route path='/' element={<MainPage />}/>
+      </Route>
+    </Routes>
   )
 }
