@@ -1,5 +1,6 @@
 import React from 'react';
-import { Outlet, useNavigate } from 'react-router-dom';
+
+import { Outlet, useNavigate, NavLink } from 'react-router-dom';
 import styles from './index.module.css'
 
 export default function Nav() {
@@ -27,13 +28,16 @@ export default function Nav() {
             <div className="collapse navbar-collapse px-5" id="hamburger-menu">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="/about" onClick={handleAbout}>About</a>
+                        <NavLink to='/about'>About</NavLink>
+                        {/* <a className="nav-link" href="/about" onClick={handleAbout}>About</a> */}
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/tech-stack" onClick={handleStack}>Stack</a>
+                        <NavLink to='/tech-stack'>Stack</NavLink>
+                        {/* <a className="nav-link" href="/tech-stack" onClick={handleStack}>Stack</a> */}
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/projects" onClick={handleProjects}>Projects</a>
+                        <NavLink to='/projects'>Projects</NavLink>
+                        {/* <a className="nav-link" href="/projects" onClick={handleProjects}>Projects</a> */}
                     </li>
                 </ul>
             </div>
