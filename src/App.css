@@ -16,7 +16,7 @@
 }
 
 .buttons {
-    width: 330px;
+    width: max-content;
     padding: 10px;
     display: flex;
     justify-content: center;

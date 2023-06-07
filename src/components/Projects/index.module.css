@@ -8,17 +8,18 @@
 }
 
 .outer_card {
-    width: 365px;
+    width: max-content;
     background-color: aqua;
 }
 
 .img_card {
-    width: 350px;
+    width: max-content;
     padding: 15px;
     min-height: 200px;
     background-color: antiquewhite;
 }
 
 .image {
-    max-width: 350px;
+    width: 350px;
+    overflow: hidden;
 }
