@@ -27,7 +27,7 @@ export default function Projects() {
               <div className={`${styles.card_text}`}>
                 <h4 key={i} className='text-sm'>{item.project_name}</h4>
                 <p className='fw-light'>Made using {item.tech_stack}</p>
-                <button className='btn' onClick={() => window.open(item.github_url)}>Github Repo</button>
+                <button className={`btn ${styles.repo}`} onClick={() => window.open(item.github_url)}>Github Repo</button>
               </div>
             </div>
           )) : undefined}
@@ -55,7 +55,7 @@ const projects = {
             github_url: 'https://github.com/anawinter53/Learnify'
         },
         { 
-            project_name: 'Portfolio Page', 
+            project_name: 'Portfolio', 
             tech_stack: 'HTML5, CSS3, Bootstrap, JavaScript, React, Vite',
             main_image: 'assets/learnify-main.png',
             secondary_image: 'assets/learnify-main.png',

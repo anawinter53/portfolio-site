@@ -32,7 +32,7 @@ export default function Nav() {
                     </li>
                 </ul>
             </div>
-                <button className="btn">☾</button>
+                {/* <button className="btn">☾</button> */}
         </nav>
         <Outlet />
     </>
