@@ -15,7 +15,7 @@ export default function MainPage() {
           <section id="projects" class="projects">
             <Projects />
           </section>
-          <Socials />
+          {/* <Socials /> */}
     </div>
   )
 }

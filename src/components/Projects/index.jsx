@@ -27,7 +27,7 @@ export default function Projects() {
               <div className={`${styles.card_text}`}>
                 <h4 key={i} className='text-sm'>{item.project_name}</h4>
                 <p className='fw-light'>Made using {item.tech_stack}</p>
-                <button className='btn'>Github Repo</button>
+                <button className='btn' onClick={() => window.open(item.github_url)}>Github Repo</button>
               </div>
             </div>
           )) : undefined}
