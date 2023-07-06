@@ -12,6 +12,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "react-router-dom": "^6.11.2",
+    "react-router-hash-link": "^2.4.3",
     "react-scroll": "^1.8.9",
     "typewriter-effect": "^2.20.1",
     "vite": "^4.3.9"

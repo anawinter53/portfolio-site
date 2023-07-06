@@ -6,9 +6,15 @@ export default function MainPage() {
   return (
     <div className='mainpage'>
           <Intro />
-          <About id='about' name='about'/>
-          <TechStack name='tech-stack'/>
-          <Projects name='projects'/>
+          <section id="about" class="about">
+            <About />
+          </section>
+          <section id="tech-stack" class="tech-stack">
+            <TechStack />
+          </section>
+          <section id="projects" class="projects">
+            <Projects />
+          </section>
           <Socials />
     </div>
   )
