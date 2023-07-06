@@ -6,9 +6,9 @@ export default function MainPage() {
   return (
     <div className='mainpage'>
           <Intro />
-          <About />
-          <TechStack />
-          <Projects />
+          <About id='about' name='about'/>
+          <TechStack name='tech-stack'/>
+          <Projects name='projects'/>
           <Socials />
     </div>
   )
