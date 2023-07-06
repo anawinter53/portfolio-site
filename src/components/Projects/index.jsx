@@ -43,21 +43,21 @@ const projects = {
         { 
             project_name: 'Focalise', 
             tech_stack: 'HTML5, CSS3, Bootstrap, React, Vite, Vitest, Python, Flask, Pytest, Bcrypt, SQLAlchemy, Render',
-            main_image: 'src/assets/focalise-main.png',
+            main_image: 'assets/focalise-main.png',
             secondary_image: 'assets/focalise-secondary.png',
             github_url: 'https://github.com/anawinter53/focalise-client'
         },
         { 
             project_name: 'Learnify',
             tech_stack: 'HTML5, CSS3, JavaScript, React, jsdom, Vite, Vitest, Express, Bcrypt, Nodemon, PostgreSQL, Jest, Supertest', 
-            main_image: 'src/assets/learnify-main.png',
+            main_image: 'assets/learnify-main.png',
             secondary_image: 'assets/learnify-secondary.png',
             github_url: 'https://github.com/anawinter53/Learnify'
         },
         { 
             project_name: 'Portfolio', 
             tech_stack: 'HTML5, CSS3, Bootstrap, JavaScript, React, Vite',
-            main_image: 'src/assets/learnify-main.png',
+            main_image: 'assets/learnify-main.png',
             secondary_image: 'assets/learnify-main.png',
             github_url: 'https://github.com/anawinter53/portfolio-site'
         },
@@ -66,7 +66,7 @@ const projects = {
         { 
             project_name: 'Focalise', 
             tech_stack: 'HTML5, CSS3, Bootstrap, React, Vite, Vitest, Python, Flask, Pytest, Bcrypt, SQLAlchemy, Render',
-            main_image: 'src/assets/focalise-main.png',
+            main_image: 'assets/focalise-main.png',
             secondary_image: 'assets/focalise-secondary.png',
             github_url: 'https://github.com/anawinter53/focalise-api'
         },
@@ -75,14 +75,14 @@ const projects = {
         { 
             project_name: 'Eco Emporium', 
             tech_stack: 'HTML5, CSS3, JavaScript, jsdom, ExpressJS, NodeJS, Bcrypt, Nodemon, PostgreSQL, Jest, Supertest',
-            main_image: 'src/assets/eco-emporium-main.png',
+            main_image: 'assets/eco-emporium-main.png',
             secondary_image: 'assets/eco-emporium-secondary.png',
             github_url: 'https://github.com/Sonagi-R/Eco-Emporium'
         },
         { 
             project_name: 'History Guessr', 
             tech_stack: 'HTML5, CSS3, JavaScript, ExpressJS, NodeJS',
-            main_image: 'src/assets/history-guessr-main.png',
+            main_image: 'assets/history-guessr-main.png',
             secondary_image: 'assets/history-guessr-main.png',
             github_url: 'https://github.com/Electrolytful/History-Guessr'
         },

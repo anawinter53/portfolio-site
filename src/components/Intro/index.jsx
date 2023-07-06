@@ -9,7 +9,7 @@ export default function Intro() {
       <div className={`row`}>
         <div className={`col col-7 ${styles.description}`}>
           <div className={`row pb-4 ${styles.waving}`}>
-              <img src='src/assets/waving-hand.png' alt='waving hand' draggable='false' loading='eager' style={{ maxWidth: "60px" }} />
+              <img src='assets/waving-hand.png' alt='waving hand' draggable='false' loading='eager' style={{ maxWidth: "60px" }} />
               <h4 className={`fw-light ${styles.hey}`}>Hey!</h4>
           </div>
           <div className='row'>
@@ -29,19 +29,19 @@ export default function Intro() {
         <div className={`col  ${styles.logos}`}>
           <div className={`${styles.persona}`}>
             <div>
-              <img src='https://ibb.co/71tJJNS' alt='hero image' draggable='false' loading='eager' className={`${styles.hero}`}/>
+              <img src='assets/studying.png' alt='hero image' draggable='false' loading='eager' className={`${styles.hero}`}/>
             </div>
             <div className={`${styles.bubble}`}>
-              <img src='src/assets/react-original.svg' alt='react icon' draggable='false' loading='eager' className={`${styles.react}`}/>
+              <img src='assets/react-original.svg' alt='react icon' draggable='false' loading='eager' className={`${styles.react}`}/>
             </div>
             <div className={`${styles.bubble}`}>
-              <img src='src/assets/jest-plain.svg' alt='jest icon' draggable='false' loading='eager' className={`${styles.jest}`}/>
+              <img src='assets/jest-plain.svg' alt='jest icon' draggable='false' loading='eager' className={`${styles.jest}`}/>
             </div>
             <div className=''>
-              <img src='src/assets/python-original.svg' alt='python icon' draggable='false' loading='eager' className={`${styles.python}`}/>
+              <img src='assets/python-original.svg' alt='python icon' draggable='false' loading='eager' className={`${styles.python}`}/>
             </div>
             <div className=''>
-              <img src='src/assets/vitest-original.svg' alt='vitest icon' draggable='false' loading='eager' className={`${styles.vitest}`}/>
+              <img src='assets/vitest-original.svg' alt='vitest icon' draggable='false' loading='eager' className={`${styles.vitest}`}/>
             </div>
           </div>
         </div>
