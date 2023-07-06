@@ -9,7 +9,7 @@ export default function Intro() {
       <div className={`row`}>
         <div className={`col col-7 ${styles.description}`}>
           <div className={`row pb-4 ${styles.waving}`}>
-              <img src='src/assets/waving-hand.png' alt='waving hand' draggable='false' loading='eager' style={{ maxWidth: "60px" }} />
+              <img src='https://ibb.co/71tJJNS' alt='waving hand' draggable='false' loading='eager' style={{ maxWidth: "60px" }} />
               <h4 className={`fw-light ${styles.hey}`}>Hey!</h4>
           </div>
           <div className='row'>
