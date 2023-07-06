@@ -15,17 +15,17 @@ export default function Nav() {
             </button>
             <div className="collapse navbar-collapse px-5" id="hamburger-menu">
                 <ul className="navbar-nav mx-auto">
-                    <li className="nav-item">
+                    <li className="nav-item fw-light">
                         <NavHashLink to="/#about" style={{ textDecoration: 'none', color: '#000' }}>
                             About
                         </NavHashLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item fw-light">
                         <NavHashLink to="/#tech-stack" style={{ textDecoration: 'none', color: '#000' }}>
                             Tech Stack
                         </NavHashLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item fw-light">
                         <NavHashLink to="/#projects" style={{ textDecoration: 'none', color: '#000' }}>
                             Projects
                         </NavHashLink>

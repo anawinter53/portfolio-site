@@ -18,14 +18,17 @@ export default function Projects() {
             <button type="button" className="btn main-button button" onClick={() => setCategory('python')}>Python</button>
             <button type="button" className="btn main-button button" onClick={() => setCategory('others')}>Others</button>
           </div>
-          <div className='d-flex flex-row text-center gap-5'>
+          <div className={`d-flex flex-row text-center gap-5 ${styles.cards}`}>
           {projects ? projects[category].map ((item, i) => ( 
             <div className={`justify-content-center rounded opacity-background ${styles.outer_card}`} href={item.github_url}>
               <div title={item.project_name} className={`d-flex justify-content-center align-items-center p-2 rounded ${styles.img_card}`}>
                 <img alt='skill' className={`${styles.image}`} src={item.main_image}/>
               </div>
-              <h4 key={i} className='text-sm'>{item.project_name}</h4>
-              <p className=''>{item.tech_stack}</p>
+              <div className={`${styles.card_text}`}>
+                <h4 key={i} className='text-sm'>{item.project_name}</h4>
+                <p className='fw-light'>Made using {item.tech_stack}</p>
+                <button className='btn'>Github Repo</button>
+              </div>
             </div>
           )) : undefined}
           </div>

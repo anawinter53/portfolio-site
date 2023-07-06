@@ -22,7 +22,7 @@ export default function Intro() {
             </h3>
           </div>  
           <div className='row pb-2'>
-            <h5 className="fw-light">I enjoy making applications that have innovative features and clean yet impactful design, alongside full-stack testing to ensure efficiency of code. </h5>
+            <h5 className='fw-light'>I enjoy making applications that have innovative features and clean yet impactful design, alongside full-stack testing to ensure efficiency of code. </h5>
           </div>
             <button className="btn main-button"> More About Me <IoIosArrowForward style={{alignItems: 'center'}}/></button>
         </div>

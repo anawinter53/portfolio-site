@@ -1,6 +1,15 @@
 .projects {
-    padding-left: 100px;
+    padding-top: 100px;
     padding-bottom: 150px;
+}
+
+.cards {
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    gap: 5px;
 }
 
 .title {
@@ -8,8 +17,10 @@
 }
 
 .outer_card {
-    width: max-content;
+    width: 370px;
     background-color: aqua;
+    padding-bottom: 10px;
+
 }
 
 .img_card {
@@ -23,3 +34,11 @@
     width: 350px;
     overflow: hidden;
 }
+
+.card_text {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
