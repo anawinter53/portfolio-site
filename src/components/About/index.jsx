@@ -4,10 +4,10 @@ import portrait from '../../../assets/anatolia-photo.jpg'
 
 export default function About() {
   return (
-    <div className={`container ${styles.about}`}>
-      <div className="">
+    <div className={`${styles.container}`}>
+      <div className={`container ${styles.about}`}>
         <h2 className={`text-md-center cursive ${styles.title}`}>About Me</h2>
-        <div className="row">
+        <div className="row d-flex justify-content-center">
           <div className={`col-4 ${styles.photo_section}`}>
             <img src={portrait} alt="Image of coding female" className={`img-fluid rounded ${styles.photo}`} />
           </div>

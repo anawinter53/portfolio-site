@@ -1,5 +1,4 @@
 .tech_stack {
-    padding-left: 100px;
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -9,8 +8,8 @@
 }
 
 .skills {
-    display: inline-block;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     flex-grow: 1;
     flex-wrap: wrap;
 }

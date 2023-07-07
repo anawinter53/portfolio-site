@@ -1,6 +1,5 @@
 .about {
     padding-top: 200px;
-    padding-left: 100px;
 }
 
 .title {
@@ -33,13 +32,12 @@
     /* transform: translateY(0.5rem); */
 }
 
-.desc_section {
-    margin-top: -15px;
-    margin-left: 35px;
-}
-
 .photo:hover {
     filter: grayscale(0)
+}
+
+.desc_section {
+    margin-top: -15px;
 }
 
 .role {
