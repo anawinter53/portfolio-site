@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://anawinter53.github.io/portfolio-site/",
   "scripts": {
     "build": "vite build",
     "preview": "vite preview",

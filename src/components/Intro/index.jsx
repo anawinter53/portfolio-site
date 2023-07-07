@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect';
 import { IoIosArrowForward } from "react-icons/io";
 import styles from './index.module.css';
 import wavinghand from '../../../assets/waving-hand.png'
+import studying from '../../../assets/studying.png'
 
 export default function Intro() {
   return (
@@ -30,7 +31,7 @@ export default function Intro() {
         <div className={`col  ${styles.logos}`}>
           <div className={`${styles.persona}`}>
             <div>
-              <img src='assets/studying.png' alt='hero image' draggable='false' loading='eager' className={`${styles.hero}`}/>
+              <img src={studying} alt='hero image' draggable='false' loading='eager' className={`${styles.hero}`}/>
             </div>
             <div className={`${styles.bubble}`}>
               <img src='assets/react-original.svg' alt='react icon' draggable='false' loading='eager' className={`${styles.react}`}/>
