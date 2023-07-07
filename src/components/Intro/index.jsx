@@ -2,6 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { IoIosArrowForward } from "react-icons/io";
 import styles from './index.module.css';
+import wavinghand from '../../../assets/waving-hand.png'
 
 export default function Intro() {
   return (
@@ -9,7 +10,7 @@ export default function Intro() {
       <div className={`row`}>
         <div className={`col col-7 ${styles.description}`}>
           <div className={`row pb-4 ${styles.waving}`}>
-              <img src='assets/waving-hand.png' alt='waving hand' draggable='false' loading='eager' style={{ maxWidth: "60px" }} />
+              <img src={wavinghand} alt='waving hand' draggable='false' loading='eager' style={{ maxWidth: "60px" }} />
               <h4 className={`fw-light ${styles.hey}`}>Hey!</h4>
           </div>
           <div className='row'>
