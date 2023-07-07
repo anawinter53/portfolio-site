@@ -2,8 +2,8 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { IoIosArrowForward } from "react-icons/io";
 import styles from './index.module.css';
-import wavinghand from '../../../assets/waving-hand.png'
-import studying from '../../../assets/studying.png'
+import wavinghand from '../../../assets/waving-hand.jpg'
+import studying from '../../../assets/studying.jpg'
 
 export default function Intro() {
   return (
@@ -34,16 +34,16 @@ export default function Intro() {
               <img src={studying} alt='hero image' draggable='false' loading='eager' className={`${styles.hero}`}/>
             </div>
             <div className={`${styles.bubble}`}>
-              <img src='assets/react-original.svg' alt='react icon' draggable='false' loading='eager' className={`${styles.react}`}/>
+              <img src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg' alt='react icon' draggable='false' loading='eager' className={`${styles.react}`}/>
             </div>
             <div className={`${styles.bubble}`}>
-              <img src='assets/jest-plain.svg' alt='jest icon' draggable='false' loading='eager' className={`${styles.jest}`}/>
+              <img src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/jest/jest-plain.svg' alt='jest icon' draggable='false' loading='eager' className={`${styles.jest}`}/>
             </div>
             <div className=''>
-              <img src='assets/python-original.svg' alt='python icon' draggable='false' loading='eager' className={`${styles.python}`}/>
+              <img src='https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg' alt='python icon' draggable='false' loading='eager' className={`${styles.python}`}/>
             </div>
             <div className=''>
-              <img src='assets/vitest-original.svg' alt='vitest icon' draggable='false' loading='eager' className={`${styles.vitest}`}/>
+              <img src='https://camo.githubusercontent.com/a2b51065ef3b087a9bd28700825cf6421acccac5f1035b961618404adf3a11b8/68747470733a2f2f7669746573742e6465762f6c6f676f2d736861646f772e737667' alt='vitest icon' draggable='false' loading='eager' className={`${styles.vitest}`}/>
             </div>
           </div>
         </div>

@@ -8,12 +8,12 @@ export default function Socials() {
         <div className='row'>
             <div className={`rounded-circle ${styles.bubble}`}>
                 <Link >
-                    <img src='assets/linkedin-plain.svg' href='linkedin.com/in/anatolia-winter/' className={`${styles.icon}`}/>
+                    <img src='assets/linkedin-plain.jpg' href='linkedin.com/in/anatolia-winter/' className={`${styles.icon}`}/>
                 </Link>
             </div>
             <div className={`rounded-circle ${styles.bubble}`}>
                 <Link >
-                    <img src='assets/github-original.svg' href='https://github.com/anawinter53' className={`${styles.icon}`}/>
+                    <img src='assets/github-original.jpg' href='https://github.com/anawinter53' className={`${styles.icon}`}/>
                 </Link>
             </div>
         </div>
