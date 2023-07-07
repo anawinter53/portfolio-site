@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import styles from './index.module.css'
+import focalise_main from '../../../assets/focalise-main.jpg'
+import learnify_main from '../../../assets/learnify-main.jpg'
+import portfolio_main from '../../../assets/portfolio-main.jpg'
+import eco_emporium_main from '../../../assets/eco-emporium-main.jpg'
+import history_guessr_main from '../../../assets/history-guessr-main.jpg'
+
 
 export default function Projects() {
   const [ category, setCategory ] = useState('react')
@@ -43,21 +49,21 @@ const projects = {
         { 
             project_name: 'Focalise', 
             tech_stack: 'HTML5, CSS3, Bootstrap, React, Vite, Vitest, Python, Flask, Pytest, Bcrypt, SQLAlchemy, Render',
-            main_image: 'assets/focalise-main.jpg',
+            main_image: focalise_main,
             secondary_image: 'assets/focalise-secondary.jpg',
             github_url: 'https://github.com/anawinter53/focalise-client'
         },
         { 
             project_name: 'Learnify',
             tech_stack: 'HTML5, CSS3, JavaScript, React, jsdom, Vite, Vitest, Express, Bcrypt, Nodemon, PostgreSQL, Jest, Supertest', 
-            main_image: 'assets/learnify-main.jpg',
+            main_image: learnify_main,
             secondary_image: 'assets/learnify-secondary.jpg',
             github_url: 'https://github.com/anawinter53/Learnify'
         },
         { 
             project_name: 'Portfolio', 
             tech_stack: 'HTML5, CSS3, Bootstrap, JavaScript, React, Vite',
-            main_image: 'assets/learnify-main.jpg',
+            main_image: portfolio_main,
             secondary_image: 'assets/learnify-main.jpg',
             github_url: 'https://github.com/anawinter53/portfolio-site'
         },
@@ -66,7 +72,7 @@ const projects = {
         { 
             project_name: 'Focalise', 
             tech_stack: 'HTML5, CSS3, Bootstrap, React, Vite, Vitest, Python, Flask, Pytest, Bcrypt, SQLAlchemy, Render',
-            main_image: 'assets/focalise-main.jpg',
+            main_image: focalise_main,
             secondary_image: 'assets/focalise-secondary.jpg',
             github_url: 'https://github.com/anawinter53/focalise-api'
         },
@@ -75,14 +81,14 @@ const projects = {
         { 
             project_name: 'Eco Emporium', 
             tech_stack: 'HTML5, CSS3, JavaScript, jsdom, ExpressJS, NodeJS, Bcrypt, Nodemon, PostgreSQL, Jest, Supertest',
-            main_image: 'assets/eco-emporium-main.jpg',
+            main_image: eco_emporium_main,
             secondary_image: 'assets/eco-emporium-secondary.jpg',
             github_url: 'https://github.com/Sonagi-R/Eco-Emporium'
         },
         { 
             project_name: 'History Guessr', 
             tech_stack: 'HTML5, CSS3, JavaScript, ExpressJS, NodeJS',
-            main_image: 'assets/history-guessr-main.jpg',
+            main_image: history_guessr_main,
             secondary_image: 'assets/history-guessr-main.jpg',
             github_url: 'https://github.com/Electrolytful/History-Guessr'
         },

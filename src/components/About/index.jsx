@@ -1,5 +1,6 @@
 import React from 'react'
-import styles from './index.module.css'
+import styles from './index.module.css';
+import portrait from '../../../assets/anatolia-photo.jpg'
 
 export default function About() {
   return (
@@ -8,7 +9,7 @@ export default function About() {
         <h2 className={`text-md-center cursive ${styles.title}`}>About Me</h2>
         <div className="row">
           <div className={`col-4 ${styles.photo_section}`}>
-            <img src="assets/anatolia-photo.jpg" alt="Image of coding female" className={`img-fluid rounded ${styles.photo}`} />
+            <img src={portrait} alt="Image of coding female" className={`img-fluid rounded ${styles.photo}`} />
           </div>
           <div className={`col-8 p-xl-5 ${styles.desc_section}`}>
             <h1 className='pb-2'>Anatolia Winter</h1>
