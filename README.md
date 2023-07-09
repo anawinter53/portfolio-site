@@ -1,5 +1,7 @@
 This is my personal portfolio, inspired by a range of designs & features. 
 
+Currently only optimised for desktop view!
+
 **CURRENTLY A WORK IN PROGRESS**
 
 Chosen colour scheme:
