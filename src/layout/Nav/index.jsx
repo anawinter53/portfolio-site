@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useState } from 'react';
 import { NavHashLink } from 'react-router-hash-link';
 import { Outlet, useNavigate, NavLink } from 'react-router-dom';
 import styles from './index.module.css'
 
-export default function Nav() {
+export default function Nav({darkMode, setDarkMode}) {
+    // const [darkMode, setDarkMode] = useState(localStorage.getItem('theme') === 'light')
 
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode)
+    }
+
+    
     
     return (
     <>
@@ -32,7 +39,7 @@ export default function Nav() {
                     </li>
                 </ul>
             </div>
-                {/* <button className="btn">☾</button> */}
+            { darkMode ? <button className={`btn ${styles.btn}`} onClick={toggleDarkMode}>☼</button> : <button className={`btn ${styles.btn}`} onClick={toggleDarkMode}>☾</button>}  
         </nav>
         <Outlet />
     </>
