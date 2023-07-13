@@ -7,7 +7,7 @@ import './App.css'
 
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(localStorage.getItem('theme') === 'light')
+  const [darkMode, setDarkMode] = useState(false)
 
   useEffect(() => {
     if (darkMode) {
