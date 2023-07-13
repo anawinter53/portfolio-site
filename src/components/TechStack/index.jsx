@@ -21,7 +21,7 @@ export default function TechStack() {
           <div className={`d-flex flex-row text-center pt-5 gap-5 ${styles.skills}`}>
           {skillMap ? skillMap[stack].map ((item, i) => ( 
             <div className='justify-content-center'>
-              <div title={item.skill_name} style={{ backgroundColor: "#E8E9EB", width: '8rem', height: '8rem' }} className='rounded-circle d-flex justify-content-center align-items-center p-2 mb-3'>
+              <div title={item.skill_name} style={{ width: '8rem', height: '8rem' }} className={`rounded-circle d-flex justify-content-center align-items-center p-2 mb-3 ${styles.tech_background}`}>
                 <img alt='skill' style={{ width: '5rem', height: '5rem' }} src={item.image_url}/>
               </div>
               <p key={i} className='text-sm text fw-light'>{item.skill_name}</p>

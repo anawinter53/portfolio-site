@@ -44,3 +44,7 @@
     color: #6caedd;
     font-style: italic;
 }
+
+.repo:hover {
+    color: var(--repo-hover)
+}

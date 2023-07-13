@@ -3,7 +3,12 @@
     --nav-color: #e3f2fd;
     --nav-text: #000;
     --main-button: #6caedd;
+    --main-hover: white;
+    --about-button: #6caedd;
+    --repo-hover: grey;
     --opacity-background: rgba(255, 255, 255, 0.605);
+    --photo-background: rgb(255 255 255);
+    --tech-background: #E8E9EB;
   }
   
   [data-theme="dark"] {
@@ -11,8 +16,12 @@
     --nav-color: #233668;
     --nav-text: #d2e5f9;
     --main-button: #2970FF;
+    --main-hover: white;
+    --about-button: #2970FF;
+    --repo-hover: white;
     --opacity-background: rgba(49, 50, 82, 0.605);
-
+    --photo-background: rgba(79, 80, 116, 0.605);
+    --tech-background: rgba(49, 50, 82, 0.605);
   }
   
   html {

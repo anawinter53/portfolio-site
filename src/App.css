@@ -18,9 +18,13 @@
     font-size: 3rem;
 }
 
-.main-button {
+.main-button, .about-button {
     background-color: var(--main-button);
     color: white;
+}
+
+.main-button:hover {
+    background-color: var(--main-hover);
 }
 
 .buttons {
@@ -38,3 +42,4 @@
 .opacity-background {
     background-color: var(--opacity-background); 
 }
+

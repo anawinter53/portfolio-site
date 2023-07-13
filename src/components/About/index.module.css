@@ -7,11 +7,15 @@
     padding-bottom: 50px;
 }
 
+.about_button {
+    background-color: var(--about-button);
+}
+
 .photo_section {
     width: 350px;
     padding: 0.75rem;
     align-self: flex-start;
-    background-color: rgb(255 255 255);
+    background-color: var(--photo-background);
     display: flex;
     flex-direction: column;
     align-items: center;
