@@ -11,3 +11,7 @@ ul {
     flex-direction: column;
     gap: 30px;
 }
+
+a {
+    color: var(--nav-text) !important;
+}

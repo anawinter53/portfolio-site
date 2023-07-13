@@ -23,23 +23,23 @@ export default function Nav({darkMode, setDarkMode}) {
             <div className="collapse navbar-collapse px-5" id="hamburger-menu">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item fw-light">
-                        <NavHashLink to="/#about" style={{ textDecoration: 'none', color: '#000' }}>
+                        <NavHashLink to="/#about" style={{ textDecoration: 'none' }}>
                             About
                         </NavHashLink>
                     </li>
                     <li className="nav-item fw-light">
-                        <NavHashLink to="/#tech-stack" style={{ textDecoration: 'none', color: '#000' }}>
+                        <NavHashLink to="/#tech-stack" style={{ textDecoration: 'none' }}>
                             Tech Stack
                         </NavHashLink>
                     </li>
                     <li className="nav-item fw-light">
-                        <NavHashLink to="/#projects" style={{ textDecoration: 'none', color: '#000' }}>
+                        <NavHashLink to="/#projects" style={{ textDecoration: 'none' }}>
                             Projects
                         </NavHashLink>
                     </li>
                 </ul>
             </div>
-            { darkMode ? <button className={`btn ${styles.btn}`} onClick={toggleDarkMode}>☼</button> : <button className={`btn ${styles.btn}`} onClick={toggleDarkMode}>☾</button>}  
+            { darkMode ? <button className={`btn ${styles.btn}`} onClick={toggleDarkMode} style={{color: '#d2e5f9'}}>☼</button> : <button className={`btn ${styles.btn}`} onClick={toggleDarkMode}>☾</button>}  
         </nav>
         <Outlet />
     </>
