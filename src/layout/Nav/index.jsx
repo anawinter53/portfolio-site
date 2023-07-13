@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useState } from 'react';
 import { NavHashLink } from 'react-router-hash-link';
 import { Outlet, useNavigate, NavLink } from 'react-router-dom';
 import styles from './index.module.css'
 
-export default function Nav() {
+export default function Nav({darkMode, setDarkMode}) {
+    // const [darkMode, setDarkMode] = useState(localStorage.getItem('theme') === 'light')
 
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode)
+    }
+
+    
     
     return (
     <>
-        <nav className={`navbar navbar-expand-md ps-5 pe-5 py-2 sticky-top shadow-sm  ${styles.navigation}`}>
+        <nav className={`navbar navbar-expand-md ps-5 pe-5 py-2 sticky-top shadow-sm navigation`}>
             <a className={`navbar-brand ${styles.logo}`} href="/">AW</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger-menu" aria-controls="hamburger-menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -16,23 +23,23 @@ export default function Nav() {
             <div className="collapse navbar-collapse px-5" id="hamburger-menu">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item fw-light">
-                        <NavHashLink to="/#about" style={{ textDecoration: 'none', color: '#000' }}>
+                        <NavHashLink to="/#about" style={{ textDecoration: 'none' }}>
                             About
                         </NavHashLink>
                     </li>
                     <li className="nav-item fw-light">
-                        <NavHashLink to="/#tech-stack" style={{ textDecoration: 'none', color: '#000' }}>
+                        <NavHashLink to="/#tech-stack" style={{ textDecoration: 'none' }}>
                             Tech Stack
                         </NavHashLink>
                     </li>
                     <li className="nav-item fw-light">
-                        <NavHashLink to="/#projects" style={{ textDecoration: 'none', color: '#000' }}>
+                        <NavHashLink to="/#projects" style={{ textDecoration: 'none' }}>
                             Projects
                         </NavHashLink>
                     </li>
                 </ul>
             </div>
-                {/* <button className="btn">☾</button> */}
+            { darkMode ? <button className={`btn ${styles.btn}`} onClick={toggleDarkMode} style={{color: '#d2e5f9'}}>☼</button> : <button className={`btn ${styles.btn}`} onClick={toggleDarkMode}>☾</button>}  
         </nav>
         <Outlet />
     </>

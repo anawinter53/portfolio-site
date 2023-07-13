@@ -13,3 +13,7 @@
     flex-grow: 1;
     flex-wrap: wrap;
 }
+
+.tech_background {
+    background-color: var(--tech-background);
+}

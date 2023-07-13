@@ -17,7 +17,7 @@ export default function Projects() {
   return (
     <div className={`container ${styles.projects}`}>
       <div className="pt-5 pb-5">
-        <h2 className={`text-md-center cursive ${styles.title}`}>Projects</h2>
+        <h2 className={`text-md-center text cursive ${styles.title}`}>Projects</h2>
         <div className="row justify-content-center">
           <div className={`mb-5 rounded buttons opacity-background`}>
             <button type="button" className="btn main-button button" onClick={() => setCategory('react')}>React</button>
@@ -31,9 +31,9 @@ export default function Projects() {
                 <img alt='skill' className={`${styles.image}`} src={item.main_image}/>
               </div>
               <div className={`${styles.card_text}`}>
-                <h4 key={i} className='text-sm'>{item.project_name}</h4>
-                <p className='fw-light'>Made using {item.tech_stack}</p>
-                <button className={`btn ${styles.repo}`} onClick={() => window.open(item.github_url)}>Github Repo</button>
+                <h4 key={i} className='text-sm text'>{item.project_name}</h4>
+                <p className='fw-light text'>Made using {item.tech_stack}</p>
+                <button className={`btn text ${styles.repo}`} onClick={() => window.open(item.github_url)}>Github Repo</button>
               </div>
             </div>
           )) : undefined}
